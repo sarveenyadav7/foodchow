@@ -71,14 +71,21 @@ body{
     height: auto;
     /* border: 12px solid black; */
     float: left;
-    background-color: lightblue;
+    background-color: #f0f0f0;
 }
 .list{
     width: 20%;
     height: auto;
-    /* border: 2px solid orange; */
+    border: 1px solid rgba(0, 0, 0, 0.2);
     float: left;
     margin: 30px;
+    background: #ffffff;
+    border-radius: 20px;
+    transition: transform .8s;
+}
+.list:hover{
+    background-color: #ffdab9;
+    transform: scale(1.1);
 }
 .list, h3, p{
     margin-left: 22px;
@@ -101,7 +108,7 @@ body{
     color: white;
     background-color: #48c479;
     font-size: 3px;
-    padding: 6px;
+    padding: 4px;
 }
 .time{
     padding-left: 10px;
@@ -122,13 +129,20 @@ body{
     /* border: 1px solid brown; */
 }
 .offr{
-    width: 100%;
+    width: 80%;
     /* border: 1px solid greenyellow; */
     font-size: 14px;
+    margin: 16px;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 5px;
+    padding: 3px;
+    background: #256fef;
+    color: white;
+}
+.opt-1:hover .up1{
+    background-color: green;
+    transform: scale(1.1);
 }
 
 
@@ -177,7 +191,7 @@ body{
     /* border: 2px solid orange; */
     float: left;
     margin: 0.5%;
-    border-right: 2px solid black;
+    /* border-right: 2px solid black; */
 }
 .dinner h1{
     text-align: center;
@@ -188,6 +202,22 @@ body{
     /* border: 2px solid blue; */
     float: left;
     margin: 3.9px;
+    position: relative;
+}
+.opt-1:hover{
+    background-color: rgba(255, 255, 255, 0.7);
+    /* transform: scale(1.1); */
+    /* border: 1px solid rgba(0, 0, 0, 0.2); */
+    /* border-radius: 20px; */
+}
+.up1{
+    position: absolute;
+    bottom: 60px;
+    padding: 2px;
+    border-top-right-radius: 14px;
+    color: white;
+    background-color: #256fef;
+
 }
 .opt-1 i{
     padding-right: 5px;
@@ -213,6 +243,9 @@ body{
     /* border: 12px solid green; */
     float: left;
     padding-bottom: 90px;
+}
+.app:hover{
+    transform: scale(0.8);
 }
 .app_info{
     width: 50%;
