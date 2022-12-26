@@ -28,6 +28,10 @@ body{
     float: left;
     margin-top: 30px;
 }
+.add a{
+    text-decoration: none;
+    color: white;
+}
 .cont h2{
     padding-left: 4%; 
     padding-top: 10%; 
