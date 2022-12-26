@@ -39,6 +39,21 @@ body{
     color: rgba(0, 0, 0, 0.5); 
     padding: 30px;
 }
+.cont button{
+    background-color: #0aa89e;
+    color: white;
+    font-size: 18px;
+    padding: 20px;
+    border-radius: 7px;
+    border: none;
+}
+.cont input{
+    width: 80%;
+    padding: 20px;
+    font-size: 18px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    margin-left: 3%;
+}
 .add{
     width: 70%;
     height: 60px;
@@ -72,6 +87,7 @@ body{
     /* border: 12px solid black; */
     float: left;
     background-color: #f0f0f0;
+    padding-bottom: 30px;
 }
 .list{
     width: 20%;
@@ -88,7 +104,7 @@ body{
     transform: scale(1.1);
 }
 .list, h3, p{
-    margin-left: 22px;
+    /* margin-left: 22px; */
 }
 .list p{
     padding: 4px;
@@ -397,6 +413,17 @@ footer{
     .cont p{
         font-size: 20px;
     }
+    .cont input{
+        padding: 5px;
+        font-size: 14px;
+        width: 50%;
+        margin-left: 14%;
+    }
+    .cont button{
+        padding: 5px;
+        font-size: 14px;
+        border-radius: 2px;
+    }
     .rgt-container{
         width: 100%;
     }
@@ -405,7 +432,7 @@ footer{
     }
     .list{
         width: 90%;
-        margin-left: 15px;
+        /* margin-left: 15px; */
     }
     .menu{
         font-size: 30px;
@@ -419,9 +446,9 @@ footer{
         font-size: 18px;
         padding: 10px;
     }
-    .opt-1, .opt-2, .opt-3, .opt-4, .opt-5, .opt-6, .opt-7, .opt-8, .opt-9, .opt-10, .opt-11, .opt-12 {
-        width: 86%;
-        margin-left: 6%;
+    .opt-1{
+        width: 72%;
+        margin-left: 14%;
     }
     .lunch{
         width: 100%;
@@ -461,13 +488,24 @@ footer{
     }
     .doct{
         width: 100%;
-    margin-left: 0;
+        margin-left: 0;
+        margin-bottom: 0px;
+    }
+    .up1{
+        bottom: 75px;
     }
 }
 
 @media screen and (min-width: 501px) and (max-width: 1000px){
     .lft-container{
         width: 100%;
+    }
+    .cont input{
+        padding: 14px;
+        width: 73%;
+    }
+    .cont button{
+        padding: 15px;
     }
     .add{
         font-size: 14px;
@@ -479,8 +517,12 @@ footer{
         font-size: 28px;
     }
     .list{
-        width: 45%;
-        margin-left: -6px;
+        width: 43%;
+        margin: 18px;
+        /* margin-left: -6px; */
+    }
+    .offr{
+        font-size: 12px;
     }
     .menu{
         font-size: 30px;
@@ -492,9 +534,9 @@ footer{
         font-size: 18px;
         padding: 10px;
     }
-    .opt-1, .opt-2, .opt-3, .opt-4, .opt-5, .opt-6, .opt-7, .opt-8, .opt-9, .opt-10, .opt-11, .opt-12 {
-        width: 70%;
-        margin-left: 14%;
+    .opt-1{
+        width: 76%;
+        margin-left: 11%;
     }
     .lunch{
         width: 49%;
@@ -526,6 +568,8 @@ footer{
     .doct{
         width: 44%;
         height: 319px;
+    }.up1{
+        bottom: 82px;
     }
 }
 
