@@ -435,8 +435,8 @@ footer{
         font-size: 20px;
     }
     .list{
-        width: 90%;
-        /* margin-left: 15px; */
+        width: 80%;
+        margin-left: 30px;
     }
     .menu{
         font-size: 30px;
